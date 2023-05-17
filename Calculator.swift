@@ -11,5 +11,9 @@ class Calculator {
     func division(a: Int, b: Int) -> Int {
         return a / b
     }
+
+    func power(base: Int, exponent: Int) -> Int {
+        return Int(pow(base, exponent))
+    }
     
 }
