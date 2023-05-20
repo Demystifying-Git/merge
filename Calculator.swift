@@ -15,5 +15,9 @@ class Calculator {
     func power(base: Int, exponent: Int) -> Int {
         return Int(pow(base, exponent))
     }
+
+    func test() -> Int {
+        return 0
+    }
     
 }
